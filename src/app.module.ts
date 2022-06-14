@@ -22,10 +22,10 @@ config();
     ],
     autoLoadEntities: true,
     synchronize: true, 
-    // ssl: {      /* <----- Add SSL option */
-    //     require: true,
-    //     rejectUnauthorized: false 
-    //   }
+    ssl: {      /* <----- Add SSL option */
+        require: true,
+        rejectUnauthorized: false 
+      }
     // logging: true,
   }), CartModule, ProductModule, UserModule],
   controllers: [AppController],
